@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
@@ -49,5 +51,5 @@ function failSyntax(message){
 }
 
 
-bot_secret_token = "REPLACE WITH BOT SECRET KEY"
-client.login(bot_secret_token)
+bot_secret_token = process.env.API_KEY;
+client.login(bot_secret_token);
