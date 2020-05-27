@@ -49,5 +49,5 @@ function failSyntax(message){
 }
 
 
-bot_secret_token = "NjQyMzg3MjI1NTAxMjM3MjY4.Xs51Ug.mOgS5PbWMHBp9GH1ydtfa5z13ec"
+bot_secret_token = "REPLACE WITH BOT SECRET KEY"
 client.login(bot_secret_token)
